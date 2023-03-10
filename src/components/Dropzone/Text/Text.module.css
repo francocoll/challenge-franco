@@ -1,0 +1,70 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    gap: 30px;
+}
+
+.inputText {
+    font-family: Bebas Neue;
+    background-color: #242424;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding: 10px 0;
+    border-bottom: 1px solid white;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+.inputText::placeholder {
+    color: white;
+}
+
+.input {
+    font-family: Bebas Neue;
+    color: #242424;
+    font-size: 18px;
+    padding: 20px;
+    width: 100%;
+    letter-spacing: 4px;
+    background-color: white;
+    border: 1px solid #919191;
+}
+
+.input:hover {
+    background-color: #919191;
+    color: #242424;
+}
+
+.inputExit {
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    width: 100%;
+    letter-spacing: 4px;
+    background-color: #242424;
+    border: 1px solid #919191;
+}
+
+.inputExit:hover {
+    background-color: white;
+    color: #242424;
+}
+
+.toggle {
+    width: fit-content;
+    height: fit-content;
+    width: 250px;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .inputText {
+        margin-bottom: 20px;
+    }
+}

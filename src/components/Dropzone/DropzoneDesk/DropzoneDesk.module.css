@@ -1,0 +1,50 @@
+.container {
+    color: white;
+    font-family: Bebas Neue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #25252580;
+    z-index: 200;
+    letter-spacing: 4px;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #242424;
+}
+
+.back img {
+    position: relative;
+    width: 17px;
+    height: 17px;
+    margin-bottom: -17px;
+    left: 270px;
+    top: 25px;
+    transition: 0.3s;
+}
+
+@media (min-width:768px) {
+    .back {
+        width: 730px;
+        height: 440px;
+    }
+
+    .back img {
+        left: 320px;
+        top: 25px;
+    }
+
+    .back img:hover {
+        transform: scale(1.2);
+    }
+
+}
