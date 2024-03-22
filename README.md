@@ -1,8 +1,7 @@
 
 ## Demo
 
-[https://challenge-franco.vercel.app/](https://liteflix-franco.vercel.app/)
-
+https://liteflix-franco.vercel.app/
 
 
 
